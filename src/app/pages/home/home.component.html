@@ -1,0 +1,151 @@
+<div class="min-h-screen bg-gray-900 text-gray-100 flex flex-col">
+  <!-- Header -->
+  <header class="bg-gray-800 shadow-md py-4 px-6">
+    <div class="flex items-center text-center">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-10 w-10 text-blue-400"
+        viewBox="0 0 400 400"
+        fill="currentColor"
+      >
+        <path
+          d="M200 100c-55.228 0-100 44.772-100 100s44.772 100 100 100 100-44.772 100-100S255.228 100 200 100zm0 170a70 70 0 110-140 70 70 0 010 140z"
+        />
+        <circle cx="200" cy="200" r="40" fill="currentColor" />
+      </svg>
+      <h1 class="text-2xl font-bold text-white">Ma Super Application</h1>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main
+    class="flex-grow container mx-auto px-6 py-12 grid md:grid-cols-2 gap-12 items-center"
+  >
+    <!-- Introduction Section -->
+    <div class="space-y-6">
+      <h2 class="text-4xl font-extrabold text-white mb-4">
+        Bienvenue dans votre nouvelle expérience
+      </h2>
+      <p class="text-gray-300 text-lg leading-relaxed">
+        Notre application révolutionne votre façon de gérer et d'interagir avec
+        vos données. Conçue avec une technologie de pointe, elle offre une
+        expérience utilisateur fluide, intuitive et performante.
+      </p>
+
+      <div class="space-y-4">
+        <div class="flex items-center space-x-3">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 text-blue-400"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
+            />
+          </svg>
+          <span class="text-gray-200">Performances optimisées</span>
+        </div>
+        <div class="flex items-center space-x-3">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 text-blue-400"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+            />
+          </svg>
+          <span class="text-gray-200">Gain de temps significatif</span>
+        </div>
+      </div>
+
+      <div class="flex space-x-4 pt-6">
+        <button
+          class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-colors font-semibold"
+        >
+          Commencer
+        </button>
+        <button
+          class="bg-gray-700 hover:bg-gray-600 text-white px-6 py-3 rounded-lg transition-colors font-semibold"
+        >
+          En savoir plus
+        </button>
+      </div>
+    </div>
+
+    <!-- Illustration Section -->
+    <div class="hidden md:flex justify-center items-center">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 400 400"
+        class="w-full max-w-md"
+      >
+        <defs>
+          <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#1E40AF;stop-opacity:0.2" />
+            <stop offset="100%" style="stop-color:#4338CA;stop-opacity:0.2" />
+          </linearGradient>
+        </defs>
+        <rect width="400" height="400" fill="url(#bgGradient)" />
+        <g stroke="#fff" stroke-width="3" fill="none">
+          <circle
+            cx="200"
+            cy="200"
+            r="120"
+            stroke-dasharray="10 10"
+            stroke-opacity="0.3"
+          />
+          <circle cx="120" cy="150" r="20" fill="rgba(255,255,255,0.2)" />
+          <circle cx="280" cy="150" r="20" fill="rgba(255,255,255,0.2)" />
+          <circle cx="200" cy="280" r="20" fill="rgba(255,255,255,0.2)" />
+          <line
+            x1="120"
+            y1="150"
+            x2="280"
+            y2="150"
+            stroke="rgba(255,255,255,0.4)"
+          />
+          <line
+            x1="120"
+            y1="150"
+            x2="200"
+            y2="280"
+            stroke="rgba(255,255,255,0.4)"
+          />
+          <line
+            x1="280"
+            y1="150"
+            x2="200"
+            y2="280"
+            stroke="rgba(255,255,255,0.4)"
+          />
+          <circle
+            cx="200"
+            cy="200"
+            r="40"
+            fill="rgba(255,255,255,0.3)"
+            stroke="#fff"
+            stroke-width="4"
+          />
+        </g>
+      </svg>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 py-6 px-6">
+    <div class="container mx-auto text-center text-gray-400">
+      © 2024 Ma Super Application. Tous droits réservés.
+    </div>
+  </footer>
+</div>
